@@ -21,6 +21,7 @@ import com.seok2.ladder.view.OutputView;
 public class GameMain {
 
     public static void main(String[] args) {
+        System.out.println();
         Participants participants = Participants.of(InputView.getNames());
         Prizes prizes = Prizes.of(InputView.getPrizes());
         Height height = Height.of(InputView.getHeight());
