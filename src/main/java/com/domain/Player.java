@@ -6,7 +6,6 @@ public class Player {
 
     private final String name;
 
-
     private Player(String name) {
         validate(name);
         this.name = name;
@@ -19,5 +18,9 @@ public class Player {
 
     public static Player ofName(String name) {
         return new Player(name);
+    }
+
+    public String getName() {
+        return name;
     }
 }

@@ -33,6 +33,10 @@ public class Point {
         return new Point(false);
     }
 
+    public boolean isBridge() {
+        return bridge;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
