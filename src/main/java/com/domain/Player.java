@@ -12,7 +12,7 @@ public class Player {
     }
 
     private void validate(String name) {
-        if(name == null || name.length() < PLAYER_NAME_MIN_LENGTH || name.length() > PLAYER_NAME_MAX_LENGTH )
+        if (name == null || name.length() < PLAYER_NAME_MIN_LENGTH || name.length() > PLAYER_NAME_MAX_LENGTH)
             throw new IllegalArgumentException("유효하지 않은 이름입니다.");
     }
 

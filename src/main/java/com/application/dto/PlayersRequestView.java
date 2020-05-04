@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 
 public class PlayersRequestView {
 
-    private final String [] names;
+    private final String[] names;
 
-    public PlayersRequestView(String [] names) {
+    public PlayersRequestView(String[] names) {
         this.names = names;
     }
 

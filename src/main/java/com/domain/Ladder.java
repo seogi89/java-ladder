@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.toList;
 
-public class Ladder implements Iterable<Line>  {
+public class Ladder implements Iterable<Line> {
 
     private final List<Line> lines;
 

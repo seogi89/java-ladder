@@ -20,8 +20,8 @@ public class OutputViewer {
     private static void printLadder(List<List<Boolean>> ladder) {
         ladder.forEach(line -> {
             line.stream()
-            .map(p -> p ? HORIZONTAL_LINE : VERTICAL_LINE)
-            .forEach(System.out::print);
+                    .map(p -> p ? HORIZONTAL_LINE : VERTICAL_LINE)
+                    .forEach(System.out::print);
             System.out.println();
         });
     }

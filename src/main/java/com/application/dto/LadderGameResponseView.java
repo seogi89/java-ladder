@@ -24,8 +24,8 @@ public class LadderGameResponseView {
                 .collect(toList());
         List<List<Boolean>> ladderView = ladder.stream()
                 .map(line -> line.stream()
-                             .map(Point::isBridge)
-                             .collect(toList())
+                        .map(Point::isBridge)
+                        .collect(toList())
                 ).collect(toList());
         return new LadderGameResponseView(playerView, ladderView);
     }

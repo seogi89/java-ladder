@@ -24,7 +24,7 @@ public class Point {
     }
 
     public Point next(LineLinkStrategy strategy) {
-        if(this.bridge)
+        if (this.bridge)
             return new Point(false);
         return new Point(strategy.get());
     }

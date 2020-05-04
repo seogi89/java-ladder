@@ -3,12 +3,11 @@ package com.domain;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class Line implements Iterable<Point>{
+public class Line implements Iterable<Point> {
     private static final int LAST_POINT_DIFFERENCE = 1;
     private static final int LAST_LIST_IDX_DIFFERENCE = 1;
 
